@@ -10,7 +10,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #a162d5;
+  background: #74459b;
 }
 
 h1 {
@@ -36,21 +36,37 @@ input {
 .fa-shopping-cart {
   color: white;
   font-size: 20px;
+  margin: 0 10px 0 10px;
 }
 
 .fa-user {
   color: white;
   font-size: 20px;
+  margin: 0 10px 0 10px;
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
-  background-color: rgba(245, 118, 0, 0.562);
+  background-color: #bf70ff9c;
+}
+
+.category-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 10px 0;
 }
 
 h2 {
   color: white;
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+}
+
+.nav-ico {
+  color: white;
+  font-size: 18px;
 }
 
 section {
